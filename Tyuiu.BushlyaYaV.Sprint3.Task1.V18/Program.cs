@@ -35,7 +35,7 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task1.V18
 
             Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(startValue, stopValue));
 
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

@@ -13,7 +13,7 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task1.V18.Lib
                 sumSeries = sumSeries * (Math.Sin(startValue) * Math.Pow(1 / 4, 2));
                 startValue++;
             }
-            return Math.Round(sumSeries, 3);
+            return Math.Round(sumSeries, 3); 
         }
     }
 }

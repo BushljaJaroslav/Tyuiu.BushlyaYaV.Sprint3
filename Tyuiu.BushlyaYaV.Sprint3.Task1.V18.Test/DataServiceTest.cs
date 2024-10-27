@@ -10,7 +10,7 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task1.V18.Test
         public void test()
         {
             DataService ds = new DataService();
-            int startValue = 1;
+            int startValue = 1;  
             int stopValue = 15;
 
             double res = ds.GetSumSeries(startValue, stopValue);
