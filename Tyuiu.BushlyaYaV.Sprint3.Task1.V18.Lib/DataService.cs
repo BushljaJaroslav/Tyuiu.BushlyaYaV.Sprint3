@@ -7,13 +7,17 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task1.V18.Lib
     {
         public double GetSumSeries(int startValue, int stopValue)
         {
-            double sumSeries = 1;
-            while (startValue < stopValue)
+            double S = 0;
+
+            while (startValue <= stopValue)
             {
-                sumSeries = sumSeries * (Math.Sin(startValue) * Math.Pow(1 / 4, 2));
+                S = S + ((Math.Sin(startValue) * (Math.Pow((1.0 / 4), 2))));
+
                 startValue++;
+
             }
-            return Math.Round(sumSeries, 3); 
+            return Math.Round(S, 3);
+
         }
     }
 }

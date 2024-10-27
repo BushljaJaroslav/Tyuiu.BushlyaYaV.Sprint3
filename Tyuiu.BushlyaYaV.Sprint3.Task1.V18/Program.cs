@@ -29,13 +29,17 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task1.V18
             Console.WriteLine("Старт шага = " + startValue);
             Console.WriteLine("Конец шага = " + stopValue);
 
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(startValue, stopValue));
 
-            Console.ReadKey(); 
+            double result = ds.GetSumSeries(startValue, stopValue);
+
+
+            Console.WriteLine(result);
+            Console.ReadKey();
         }
     }
 }
