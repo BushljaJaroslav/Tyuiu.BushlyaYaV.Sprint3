@@ -8,14 +8,14 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task3.V9
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #3 | Выполнила: Бушля Я. В. | ИСТНб-24-1 ";
+            Console.Title = "Спринт #3 | Выполнил: Бушля Я. В. | ИСТНб-24-1 ";
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Оператор цикла do-while                                           *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #3                                                              *");
-            Console.WriteLine("* Выполнила: Бушля Ярослав Владимирович | ИСТНб-24-1                      *");
+            Console.WriteLine("* Выполнил: Бушля Ярослав Владимирович | ИСТНб-24-1                      *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет сумму   *");

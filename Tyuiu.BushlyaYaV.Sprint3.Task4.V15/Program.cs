@@ -1,7 +1,8 @@
 ﻿
-using Tyuiu.BushlyaYaV.Sprint3.Task2.V3.Lib;
+using System;
+using Tyuiu.BushlyaYaV.Sprint3.Task4.V15.Lib;
 
-namespace Tyuiu.BushlyaYaV.Sprint3.Task2.V3
+namespace Tyuiu.BushlyaYaV.Sprint3.Task4.V15
 {
     internal class Program
     {
@@ -16,31 +17,32 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task2.V3
             Console.WriteLine("* Тема: Оператор цикла do-while                                           *");
             Console.WriteLine("* Задание #2                                                              *");
             Console.WriteLine("* Вариант #3                                                              *");
-            Console.WriteLine("* Выполнил: Бушля Ярослав Владимирович | ИСТНб-24-1                      *");
+            Console.WriteLine("* Выполнил: Бушля Ярослав Владимирович | ИСТНб-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет сумму   *");
-            Console.WriteLine("* ряда по формуле, при х=4                                                *");
+            Console.WriteLine("* На отрезке, где x принимает значения от -5 до 5, вычислить значение     *");
+            Console.WriteLine("* функции y=((sin(x)+x)/x)+0.75. При х = 0 пропустить значение            *");
+            Console.WriteLine("* Полученные значения перемножать.                                        *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int value = 4;
-            int startValue = 1;
-            int stopValue = 15;
+            int startValue = -5;
+            int stopValue = 5;
 
-            Console.WriteLine(" Переменная X = " + value);
             Console.WriteLine(" Старт шага = " + startValue);
             Console.WriteLine(" Конец шага = " + stopValue);
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(" Сумма ряда = " + ds.GetSumSeries(value, startValue, stopValue));
+            Console.WriteLine("Сумма ряда =  " + ds.Calculate(startValue, stopValue));
 
             Console.ReadKey();
+
         }
     }
 }
