@@ -21,7 +21,7 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task7.V27.Test
             valueWaitArray[1] = -10.93;
             valueWaitArray[2] = -7.22;
             valueWaitArray[3] = -5.04;
-            valueWaitArray[4] =  0.00;
+            valueWaitArray[4] =  0;
             valueWaitArray[5] = -0.30;
             valueWaitArray[6] =  2.57;
             valueWaitArray[7] =  6.40;
