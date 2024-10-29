@@ -13,19 +13,12 @@ namespace Tyuiu.BushlyaYaV.Sprint3.Task7.V27.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                double denominator = Math.Cos(x) + 1;
-                if (denominator == 0)
-                {
-                    y = 0;
-                }
-                else
-                {
-                    y = Math.Round((Math.Cos(x) / x + 1) - (Math.Cos(x) * 1.3) + (3 * x), 2);
-                }
+                y = Math.Cos(x) / (x + 1) - Math.Cos(x) * 1.3 + 3 * x;
+                y = Math.Round(y, 2);
                 valueArray[count] = y;
                 count++;
-            }
 
+            }
             return valueArray;
         }
     }
